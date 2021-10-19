@@ -1,0 +1,65 @@
+[
+    {
+        "key": 1,
+        "des":"Bad breath, also called halitosis, can be downright embarrassing. According to dental studies, about 85 percent of people with persistent bad breath have a dental condition that is to blame.1﻿ Gum disease, cavities, oral cancer, dry mouth, and bacteria on the tongue are some of the dental problems that can cause bad breath.",
+        "name": "Bad Breath",
+        
+        "img": "https://clearsmiles.com/wp-content/uploads/2020/07/Bad-Breath.jpg"
+       
+    },
+    
+    {
+        "key": 3,
+        "des":"Gum disease, also known as periodontal disease, is an infection of the gums surrounding the teeth. It is also one of the main causes of tooth loss among adults. Some studies have indicated that there may be a link between heart disease and periodontal disease",
+        "name": "Gum (Periodontal) Disease",
+        
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarxdental.com%2Fwp-content%2Fuploads%2F2020%2F03%2FClancy_GumDisease-min.jpg&f=1&nofb=1"
+       
+    },
+    {
+        "key": 4,
+        "des":"Oral cancer is a serious and deadly disease that affects millions of people. The Oral Cancer Foundation estimates that someone in the United States dies every hour from oral cancer, but it is often curable if diagnosed and treated in the early stages. It is most often seen in people over the age of 40.",
+        "name": "Oral Cancer",
+        
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.solihulldentalcentre.co.uk%2Fblog%2Fwp-content%2Fuploads%2F2018%2F01%2FLe-Cancer-Bucal-1000x600-whybemagazine.jpg&f=1&nofb=1"
+       
+    },
+
+    
+
+    {
+        "key": 2,
+        "des":"Tooth sensitivity is a common problem that affects millions of people. Basically, tooth sensitivity involves experiencing pain or discomfort to your teeth from sweets, cold air, hot drinks, cold drinks or ice cream.Some people with sensitive teeth even experience discomfort from brushing and flossing. The good news is that sensitive teeth can be treated",
+        "name": "Tooth Sensitivity",
+        
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.101stadultdentistry.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fcosmetic-dentist-clarksville-tn-sensitive-teeth.jpg&f=1&nofb=1"
+       
+    },
+    
+    
+    {
+        "key": 6,
+        "des":"Tooth decay, also known as cavities, is the second only to the common cold as the most prevalent disease in the United States.2﻿ Tooth decay occurs when plaque, the sticky substance that forms on teeth, combines with the sugars and/or starches of the food you eat. This combination produces acids that attack tooth enamel.",
+        "name": "Tooth Decay",
+        
+        "img": "https://cdn.cdnparenting.com/articles/2018/01/639536269-H.jpg"
+       
+    },
+   
+    
+   
+    
+    {
+        "key": 5,
+        "des":"Tooth erosion is the loss of tooth structure and is caused by acid attacking the enamel. Tooth erosion signs and symptoms can range from sensitivity to more severe problems such as cracking. Tooth erosion is more common than people might think, but it can also be easily prevented",
+        "name": "Tooth Erosion",
+        
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrwmKlcwxCmiL4pr80QPNHm2CaBxzTSe2nvA&usqp=CAU"
+       
+    }
+  
+    
+   
+    
+   
+]

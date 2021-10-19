@@ -1,0 +1,65 @@
+[
+    {
+        "key": 1,
+        "deg" : "MBBS (DMC), BCS (Health), FCPS (Dental)",
+        "name": "Aboul",
+        "ex" : "Ex- Professor & Head of Department,Department of Dental,Dhaka Dental Medical College & Hospita",
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1557718137.jpg"
+       
+    },
+    
+    {
+        "key": 3,
+        "deg" : "MBBS (DMC), BCS (Health), FCPS (Dental)",
+        "name": "Babul",
+        "ex" : "Assistant Professor, Dental & VD Department,SSMC Mitford Hospital, Dhaka" ,
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1557719161.jpg"
+       
+    },
+    {
+        "key": 4,
+        "deg" : "MBBS, MRCP(UK), MCPS(Medicine), MD(Dental) ",
+        "name": "Kabul",
+        "ex": "Consultant,Department of Respiratory Medicine and COVID Unit ASGAR ALI HOSPITAL",
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1575954210.jpg"
+       
+    },
+
+    
+
+    {
+        "key": 2,
+        "deg" : "MBBS, FCPS (Medicine), BCS (Health), Member, American College of Physicians (USA), APLAR Rheumatology Fellow (Hong Kong)",
+        "name": "Saiful",
+        "ex": "Assistant Professor,  Department of Medicine, Dhaka Medical College & Hospital",
+        "img": "https://www.uhlbd.com/backend/web/product_uploads/1552306241_2_IMG_3701.jpg"
+       
+    },
+    
+    
+    {
+        "key": 6,
+        "name": "Rokibul",
+        "deg" : "MBBS, Ph.D., Fellow, International College of Surgeons",
+        "ex" : "Ex- Professor & Head of Department,Department of Dental,Dhaka Dental Medical College & Hospita",
+        "img": "https://cloud.meddy.com/bd/profilepic/sheikh-abdul-kader/300/300/95/"
+       
+    },
+   
+    
+   
+    
+    {
+        "key": 5,
+        "deg" : "MBBS, MD (Dental), FRCP (UK), FACC (USA)",
+        "ex" : "Ex- Professor & Head of Department of Dental,Comilla Medical College & Hospital, Dhaka  ",
+        "name": "Tooth Erosion",
+        "img": "https://www.bdspecializedhospital.com/storage/app/public/media/1557720185.jpg"
+       
+    }
+  
+    
+   
+    
+   
+]
