@@ -41,6 +41,7 @@ const NotFound = () => {
 		</div>
 	</div>
 </section>
+<span className="mar"></span>
         </div>
     );
 };

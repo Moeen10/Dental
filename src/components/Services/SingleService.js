@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Card } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 // import Output from './Output';
 
 const SingleService = () => {
@@ -34,6 +35,10 @@ console.log("le ",service)
   </Card.Text>
 </Card.ImgOverlay>
 </Card>
+<br />
+<br />
+
+<Link to="/home"><Button>Home</Button></Link> 
        </div>
     );
 };

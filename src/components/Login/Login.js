@@ -1,12 +1,8 @@
 import useAuth from '../../hooks/useAuth';
-// import useAuth from '../../hooks/useAuth';
 import "./Login.css"
-
-
 import React, { useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
-import './Login.css'
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -31,15 +27,9 @@ const Login = () => {
         setPassword(e.target.value)
     }
 
-    const handleRegistration = e => {
-        // e.preventDefault();
-        console.log(email,password);
-        // history.push(redirect_Uri);
+    const handleRegistration = () => {
         signUpUsingPassword(email, password)
-         .then(response=>console.log(response))
-         .catch(error=>console.log(error))
-        
-        
+        history.push(redirect_Uri);
 
     }
 
@@ -50,16 +40,16 @@ const Login = () => {
             <h3 className="text-danger mt-3">{error}</h3>
             <div className="mb-3 text-start mt-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-                <input onBlur={handleEmailChange} type="email" className="form-control" id="exampleFormControlInput1" placeholder="email" required />
+                <input onBlur={handleEmailChange} type="email" className="form-control" id="exampleFormControlInput1" placeholder="devilsaif20@gmail.com" required />
             </div>
 
             <div className="mb-3 text-start">
                 <label htmlFor="exampleFormControlInput1" className="form-label">Password</label>
-                <input onBlur={handlePasswordChange} type="password" className="form-control" id="exampleFormControlInput1" placeholder="password" />
+                <input onBlur={handlePasswordChange} type="password" className="form-control" id="exampleFormControlInput1" placeholder="" />
 
                 <div className="mt-3 d-md-flex">
                     <button onClick={handleRegistration} className=" btn-sm bg-info me-3">Register</button>
-                    <Link to="/+">Already Registerd ?</Link>
+                    <Link to="/signin">Already Registerd ?</Link>
                 </div>
             </div>
 
@@ -69,12 +59,5 @@ const Login = () => {
         </div>
     );
 };
+
 export default Login;
-
-
-
-
-
-
-
-

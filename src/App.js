@@ -7,7 +7,6 @@ import Services from './components/Services/Services';
 import NotFound from './components/404/NotFound';
 import Doctor from './components/Doctor/Doctor';
 import Login from './components/Login/Login';
-import Registration from './components/Registration/Registration';
 import Footer from './Footer/Footer';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/Login/PrivateRoute';
@@ -27,12 +26,13 @@ function App() {
       <Route exact path="/home">
       <Home/>
       </Route>
-      <Route path="/services">
+    
+      <Route exact path="/services">
       <Services/>
       </Route>
-      <Route path="/singleService/:serviceId">
+      <PrivateRoute path="/singleService/:serviceId">
       <SingleService></SingleService>
-      </Route>
+      </PrivateRoute>
       <PrivateRoute exact path="/doctor">
       <Doctor/>
       </PrivateRoute>
@@ -42,13 +42,22 @@ function App() {
       <Route path="/signin">
               <SignIn></SignIn>
             </Route>
-      <Route exact path="/registration">
-      <Registration/>
-      </Route>
       <Route path="*">
       <NotFound></NotFound>
       </Route>
       </Switch>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Footer/>
       </BrowserRouter>
      </AuthProvider>
